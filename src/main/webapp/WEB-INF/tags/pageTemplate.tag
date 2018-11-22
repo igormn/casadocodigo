@@ -26,6 +26,7 @@
 		<link href="${contextPath}resources/css/responsive-style.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="${contextPath}resources/css/guia-do-programador-style.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="${contextPath}resources/css/produtos.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="${contextPath}resources/css/usuarios.css" rel="stylesheet" type="text/css" media="all" />
 		<link rel="canonical" href="http://www.casadocodigo.com.br/" />
 		<link href="${contextPath}resources/css/book-collection.css" rel="stylesheet" type="text/css" media="all" />
 	</head>

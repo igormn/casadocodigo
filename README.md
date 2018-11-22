@@ -1,3 +1,7 @@
+## CONSIDERAÇÕES ##
+   => Na classe "JPAConfiguration", alterei a propriedade "hibernate.hbm2ddl.auto" de "create" para "update". Fiz isso somente para o banco de dados não ficar sendo apagado 
+      todas as vezes que a aplicação era reiniciada.
+
 ## Ambiente 
 
  Aplicação foi testado com JRE8 e JRE9 no Apache Tomcat 7, 8, 9

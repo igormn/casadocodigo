@@ -1,5 +1,7 @@
 package br.com.casadocodigo.loja.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
@@ -17,5 +19,10 @@ public class RoleDAO {
 
 	public void gravar(Role role) {
 		manager.persist(role);
+	}
+	
+	// FUNCIONALIDADE #4
+	public List<Role> listar() {
+		return manager.createQuery(" select r from Role r order by r.nome ", Role.class).getResultList();
 	}
 }
